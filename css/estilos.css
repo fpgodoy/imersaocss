@@ -1,0 +1,32 @@
+body {
+    background-image: url(https://www.significadofacil.com/wp-content/uploads/2019/07/background.jpg);
+    background-size: 100vw auto;
+    font-family: Verdana;
+    height: 100vh;
+  }
+  .site-subtitle,
+  .site-title{
+    color: whitesmoke;
+    text-align: center;
+  }
+  .site-subtitle{
+    font-style: italic;
+  }
+  .menu {
+    background-color: whitesmoke;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: teal;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: orange;
+  }
